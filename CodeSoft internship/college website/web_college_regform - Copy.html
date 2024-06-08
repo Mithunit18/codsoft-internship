@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        college registration
+    </title>
+
+    <script>
+        function confirm()
+        {
+            alert("registered successfully!");
+        }
+    </script>
+    <style>
+            *
+            {
+                padding:0px;
+                margin:0px;
+            }
+            body
+            {
+                background:url(admissionbg_image.jpg) repeat;
+                background-size:cover;
+            }
+            .myform
+            {
+              position: absolute;
+              top:25%;
+              left:40%;
+              width: 450px;
+              transform:translate(-15%,-15%);
+            
+            }
+            .myform h1
+            {
+               font-family: sans-serif;
+               margin: 40px 0;
+            }
+            .myform p
+            {
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-size:20px;
+               margin:20px 0;
+            }
+            .myform input
+            {
+                padding:20px 0;
+                border-radius: 5px;
+                width: 450px;
+                border:0;
+            }
+            .myform select
+            {
+                padding:20px 0;
+                border-radius: 5px;
+                width: 450px;
+                border:0;
+            }
+            .myform button
+            {
+                font-weight:larger;
+                background-color: silver;
+                padding: 12px 0;
+                margin:3px;
+                border-radius:5px;
+                width:215px;
+            }
+
+    </style>
+      
+</head>
+<body>
+    <div class="myform">
+    <form method="get">
+        
+            <center>
+                <h1>REGISTRATION FORM</h1>
+            </center>
+        <div class="css">    
+            <p>NAME:</p>
+            <input type="text" name="name" placeholder="ENTER YOUR NAME..." required>
+
+            <p>DOB:</p>
+            <input type="date" name="DOB" required>
+
+           
+            <p>COURSE:</p>
+            <select value="please select" required>
+                <option value="cse">Computer Science Engineering</option>
+                <option value="it">Information Technology</option>
+                <option value="ece">Electronics and communication Engineering</option>
+                <option value="eee">Electrical And Electronics Engineering</option>
+                <option value="me">Mechanical Engineering</option>
+            </select>
+
+            <p>Email-ID:</p>
+            <input type="email" name="Email-ID">
+
+            <P>MOBILE NO:</P>
+            <input type="number" name="MOBILE NO">
+
+            <p>ANNUAL INCOME:</p>
+            <input type="salary" name="ANNUAL INCOME">
+             <BR><BR>
+                
+            <button type="Submit" onclick="confirm()">SUBMIT</button>
+            <BUTTON TYPE="RESET">RESET</BUTTON>
+                 
+    </div>         
+        
+    </form>
+</div>
+</body>

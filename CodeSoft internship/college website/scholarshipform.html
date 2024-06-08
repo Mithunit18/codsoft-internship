@@ -1,0 +1,307 @@
+<!doctype>
+<html>
+    <head>  <link rel="stylesheet" href="js.css">
+        <title>Bank Account Registration Form</title>
+          <style>
+            
+            .tac
+            {
+                color:blue;
+            }
+             .img1
+             {
+                float:left;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .address
+             {
+               text-align:right;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .flex-container
+             {
+                display:flex;
+                background-color: rgb(0, 8, 255);
+            }
+            .flex-container > div
+            {
+                
+                width:350px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                padding:10px 45px;
+            }
+            .star
+            {
+              color:red;
+            }
+            body
+            {
+              cursor:crosshair;
+              background-image:url(bankimage.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            .h
+            {
+              font-size:28px;;
+            }
+            .f
+            {
+              font-size:20px;
+            }
+            .about
+            {
+              background-image:url(aboutbank.webp);
+              background-repeat: no-repeat;
+              background-size: cover;
+              font-weight:bolder;
+              color:orangered;
+              font-size: larger;
+            }
+            .a
+            {
+               font-size: 35px;
+               font-family:cursive;
+            }
+            .reg form
+            {
+              font-weight:bolder;
+            }
+        
+          </style>
+            
+          
+    </head>
+</html>
+<body>
+  <div class="m2">
+    
+    <br>        
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="clearfix">
+     <img class="img1" src="triangle.jpg" width="100px" height="100px" alt="image"><b class="shade" style="font-size:45px">ACME GLOBAL</b><br>
+     investment company</div><p class="address"><b>ACME GLOBAL</b><br>
+        123 Maple Street Anytown,<br>PA 17101<br>
+        info@example.com<br>
+        www.example.com<br>
+        (123) 1234567<br>
+    
+        <div class="flex-container">
+            <div><a href="about"><i style="color:white;">About</i></a></div>
+            <div><a href="Template"><i style="color:white;">Template</i></a></div>
+            <div><a href="Support"><i style="color:white;">Support</i></a></div>
+            <div><a href="Enterprise"><i style="color:white;">Enterprise</i></a></div>
+            <div><a href="Pricing"><i style="color:white;">Pricing</i></a></div>
+            <div><a href="css form.html"><i style="color:white"><u class="log"> LOGIN </u></i></a></div>
+        </div>
+        
+
+    
+        <h2>Banking Application Forms</h2>
+            
+        <p>Whether your clients are looking to open an account, close an account, 
+            or apply for a debit or credit card, remove unnecessary paperwork from 
+            your workflow by taking your bank applications online with a free Banking Application Form. 
+            Simply choose a template below to get started, customize it for a personalized look, and embed
+             it in your bank or financial institution’s website to more efficiently process banking applications online.
+              It’s a simple way to streamline your application process, save time and paperwork, and encourage more applications — all at once.
+            
+            Believe it or not, you can create a custom form for your financial institution without breaking the bank — our Form 
+            Builder is not only easy to use, it’s free to use too! Our banking application forms already look great, but you’re 
+            welcome to change the background image, add your logo, and integrate with third-party applications for a better look 
+            and function. Why not link your form to Google Sheets to keep a detailed record of all applications? Or integrate with 
+            a CRM system like HubSpot or Salesforce (also available on Salesforce AppExchange) to automatically create a new contact
+            for each application? By taking your bank applications online with a free Banking Application Form template, your 
+            financial institution can save time and money while instantly boosting its efficiency.</p>
+    </div>
+
+            <h1>BANK ACCOUNT REGISTRATION FORM</h1>
+<div class="reg form">
+  <form id="myform" onsubmit="confirm()">
+    <fieldset>
+      
+        <h2 style="font-size:35px;">Account Information</h2><br>
+
+        <div class="align">
+        <p style="font-size:25px;">Account Type</p> 
+        <select name="Account type" id="Account type">
+        <option value="ps">Please Select</option>
+        <option value="MMA"><p class="ai">A Money Market Account</p></option>
+        <option value="CA"><p class="ai">Checking Account</p></option>
+        <option value="SA"><p class="ai">Saving Account</p></option>
+        <option value="IRA"><p class="ai">IRA Account</p></option>
+        <option value="DD"><p class="ai">Demand Draft</p></option>s
+        </select>
+        
+        <p style="font-size:25px;">Currency Type</p> 
+        <select name="Currency type" id="Currency type">
+          <option value="ps">Please Select</option>
+        <option value="MMA"><p class="ai">USD</p></option>
+        <option value="CA"><p class="ai">EUR</p></option>
+        <option value="SA"><p class="ai">GBP</p></option>
+        <option value="IRA"><p class="ai">CAD</p></option>
+        <option value="DD"><p class="ai">KWD</p></option>
+        </select></div>
+        <br><br>
+
+        <p class="h" style="color:indigo">Personal information</p>
+        <p class="f"><i>Information given in this section is considered
+         as the information of the primary account owner information.</i></p>
+
+         <br><br>
+
+         <p style="font-size:25px;"><b>Name</b></p>
+
+        <div class="name">
+         
+         <p>surname</p>
+         <input type="text" id="Surname" placeholder="please enter....." size="30px" required >
+
+         <p>First name</p>
+         <input type="text" id="Firstname" placeholder="please enter....." size="30px" required >
+        
+         <p>Last name</p>
+         <input type="text" id="Lastname" placeholder="please enter....." size="30px">
+
+        </div><br><br><br><br><br>
+
+        <div class="date">
+         <p style="font-size:25px;">Phone Number</p>
+         <input type="mobile" id="mob" size="50px" placeholder="(000) 000-000" required>
+         <p style="font-size:25px;">Date Of Birth</p>
+         <input type="date" name="Date of Birth" required></div>
+         
+         <br><br><br><br>
+        
+         <p style="font-size:25px;">Residential Address</p>
+         <textarea id="address" name="address" required></textarea><br>street address<br><br>
+         <textarea id="address" name="address"></textarea><br>street address line <br><br><br><br><br>
+         
+        <div class="city">
+         &nbsp;&nbsp;&nbsp;City / Town<input type="text" name="city" size="50px" required>
+         State/Province<input type="text" name="state" size="50px" required>
+        </div>
+        <br><br><br>
+        <div class="post">
+         &nbsp;&nbsp;&nbsp;&nbsp;Pincode <input type="text" id="pin" size="50px" required>
+         Country<input type="text" name="country" size="50px" required></div><br><br><br>
+
+        
+         <p style="font-size:25px;" id="citizenship">Citizenship</p>
+         <input type="checkbox" name="Citizenship">US citizenship<br>
+         <input type="checkbox" name="Citizenship">EU citizenship<br>
+         <input type="checkbox" name="Citizenship">Others
+ 
+         <p style="font-size:25px;">Marital Status</p>
+         <select name="Marital Status">
+            <option value="ps">Please Select</option>
+            <option value="MMA">Married</option>
+            <option value="CA">Single</option>
+            <option value="SA">Divorced</option>
+            <option value="IRA">widowed</option>
+            <option value="sep">Separate</option>
+         </select>  
+         
+         <br><br><br>
+         
+         <div class="marital">
+        <p style="font-size:25px;">Occupation</p>
+        <input type="text" name="Occupation" size="50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <p style="font-size:25px;" required>Employer Name</p>
+        <input type="text" name="Employer Name" size="50px">
+         </div>
+<br><br><br>
+        <p style="font-size:20px;">Do you want to add joint owner to the bank account</p>
+        <input type="radio" id="yes" value="yes">Yes
+        <input type="radio" id="yes" value="no">No<hr>
+
+        <h1><u>Joint Owner Information</u></h1><br>
+        <p>By signing this form, I acknowledge that the information
+            I've given in this form is accurate and I agree all the 
+            terms and conditions.</p><br><br>
+
+        <input type="checkbox" name="checkbox" required>I agree to <a href="checkbox"><u class="tac">terms and conditions</u></a><b class="star">*</b><br>   
+        
+        <p style="font-size:20px;">Date</p>
+        <Input type="date" name="date" required><br>date
+            <center>
+              <div class="button">
+                <button type="submit" name="SUBMIT">SUBMIT</button>
+                <button type="reset" name="RESET">RESET</button>
+
+              </div> 
+            </center><br>
+      
+<hr>
+            <div class="about"><br><br>
+               <div class="a">
+              <p style="color:orangered;">ABOUT</p>
+              <p style="color:orangered;">CONTACT</p><br>
+               </div>
+              <center><p style="color:black;">copyrights&copy;ACME Global Company</p></center>
+            
+
+            
+         
+
+
+
+         
+
+     </fieldset>
+
+  </form> 
+  
+
+</div>  
+
+
+</div></div>
+<script>
+  function confirm()
+  {
+    let pin=document.getElementById("pin").value;
+    let mob=document.getElementById("mob").value;
+    if(isNaN(mob) || mob<0)
+    {
+      alert("invalid number!")
+      return false;
+    }
+    if(mob.length == 10)
+    {
+      return true;
+    }
+    else
+    {
+       alert("number must contain 10 digits!");
+       return false;
+    }
+   
+    if(isNaN(pin) || pin<0)
+    {
+      alert("invalid pincode!");
+      return false;
+    }
+    if(pin.length == 6)
+    {
+      return true;
+    }
+    else
+    {
+      alert("pincode must be 6 digits!");
+      return false;
+    }
+    
+    
+  }
+</script>  
+     
+
+</body></html>

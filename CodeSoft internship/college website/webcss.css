@@ -1,0 +1,180 @@
+header
+{
+  font-family: century;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgb(0,0,0,0.5)), url(webmain_img.jpg);  
+  height:80vh;
+  background-size:cover;
+  background-position: center;
+  min-width:auto;
+  max-width: auto;
+}
+ul
+{
+  float:right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right:0px;
+  font-size: 30px;
+}
+ul li
+{
+  display:inline-block;
+}
+ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border:1px solid transparent;
+  transition:0.5 ease;
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color:#000;
+    text-decoration: none;
+}
+ul li ul.dropdown li a:hover
+{
+    background-color: rgba(0,0,0,0.4);
+    color:orangered;
+}
+body
+{
+    background-color:silver;
+    cursor:crosshair;
+}
+.indent
+{
+    text-indent:20px;
+}
+.reg
+{
+    color:rgb(165, 42, 69);
+    font-family:sans-serif;
+}
+.last
+{
+    background-color: rgb(118, 111, 151);
+}
+.end
+{
+    background-color: rgb(128, 128, 174);
+}
+a:hover
+{
+    color:red;
+}
+.logo img
+{
+float:left;
+width:150px;
+height:auto;
+}
+.main
+{
+max-width: 1200px;
+}
+ul{
+list-style-type:none;
+}
+ul li{
+display: inline-block;
+position: relative;
+}
+ul li a{
+display: block;
+color:white;
+text-decoration: none;
+text-align: center;
+padding: 20px 25px;
+font-size: 26px;
+}
+ul li ul.dropdown li
+{
+display: block;
+
+}
+ul li ul.dropdown 
+{
+width:100%;
+position:relative;
+display: none;
+z-index: 999;
+}
+ul li ul.dropdown li a
+{
+font-size: 15px;
+padding:29px 34px;
+font-weight:100px;
+}
+ul li:hover ul.dropdown
+{
+display:block;
+background-color: rgba(0,0,0,0.3);
+}
+*
+{
+padding:0px;
+}
+.fa-person
+{
+  font-size:50px;
+}
+.fa-lightbulb
+{
+  font-size: 50px;
+}
+.fa-plane-departure
+{
+    font-size: 50px;
+}
+.fa-cash-register
+{
+    font-size: 50px;
+}
+.ind
+{
+  text-indent:147px;
+  font-size: 25px;
+}
+.ind5
+{
+  text-indent:120px;
+  font-size: 25px;
+}
+.ind6
+{
+  text-indent:137px;
+  font-size: 25px;
+}
+.ind1
+{
+  text-indent:120px;
+  font-size: 25px;
+}
+.ind12
+{
+  text-indent:160px;
+  font-size: 25px;
+}
+.ind2
+{
+  text-indent:125px;
+  font-size: 25px;
+}
+.ind3
+{
+  text-indent:110px;
+  font-size: 25px;
+}
+a:hover
+{
+    text-decoration: none;
+    color:beige;
+}
+a{
+    text-decoration:none;
+    color:beige;
+}

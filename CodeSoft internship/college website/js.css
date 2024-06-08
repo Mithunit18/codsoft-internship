@@ -1,0 +1,105 @@
+.reg form p
+{
+   margin:15px 5px;
+   color:black;
+}
+.reg form input
+{
+    padding: 12px 15px;
+    border-radius:8px;
+    outline:thin;
+    
+}
+.reg form select
+{
+    padding:12px 15px;
+    border-radius:15px;
+    outline:thin;
+    width:30%;
+}
+.reg form textarea
+{
+    padding:10px;
+    width:80%;
+    outline:none;
+}
+.reg form button
+{
+  font-weight:bold;
+  font-size:large;
+  padding:10px 8px;
+  outline:none;
+  width:10%;
+  background-color: rgb(82, 82, 145);
+}
+.shade
+{
+    text-shadow:4px 2px 2px  black;
+}
+.log
+{
+    background-color: rgb(249, 85, 3);
+}
+.reg form .align
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.align
+{
+    width:1000px;
+}
+.reg form .name
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.name
+{
+    width:fit-content;
+}
+.reg form .date
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.date
+{
+     width:max-content;
+}
+.reg form .city
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.city
+{
+    width:max-content;
+    font-size: 25px;
+}
+.reg form .post
+{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+}
+.post
+{
+   width:max-content;
+   font-size: 25px;
+}
+.reg form .marital
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space=space-between;
+}
+.marital
+{
+    width:auto;
+    font-size: 25px;
+}

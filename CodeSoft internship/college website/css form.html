@@ -1,0 +1,97 @@
+
+<html>
+   <head>
+      <link rel="stylesheet" href="ext.css">
+      <title>registration</title>
+    <style >
+       #upper
+      {
+         text-transform:uppercase;
+      }
+      
+   </style>
+    
+   </head>
+        <body>
+<div class="reg form" onsubmit="myfunction()">
+   
+   <form method="get" id="myform">
+       
+      <h1>LOGIN TO CONTINUE</h1>
+      
+      <p>Name:</p>
+        <input type="text" id="fullname" placeholder="enter your name.." onblur="func()" required>
+      <p>email id:</p>
+         <input type="email" id="email" placeholder="enter your email.." required>
+      <p>password:</p> 
+          <input type="password" id="password" placeholder="enter your password.." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain atleast one number and uppercase and lowercase letter, and atleast 8 or more characters">
+      <p>Confirm password:</p>  
+      <input type="password" id="reset" placeholder="re-enter your password.." required>  
+          <br><br>  
+      <button type="LOGIN"><a href="https://www.citchennai.edu.in/"><i style="color:white">LOGIN</i></a></button>
+       
+      <hr>
+      <p>for any queries contact us through</p>
+      <p id="upper">
+     <i style="font-weight:bolder;"><a href="https://www.citchennai.edu.in/">about</a></i><br><br>
+     <i style="font-weight:bolder;"><a href="https://www.citchennai.edu.in/">contact</a></i><br><br></p>
+      <p style="text-align:center;">copyrights&copy;cit chennai</p>
+   </form>
+</div>
+
+<script>
+   {
+      function func()
+      {
+        let y=document.getElementById("fullname");
+        y.value=y.value.toUpperCase();
+
+      }
+
+         let x=document.getElementById("myform");
+         x.addEventListener("focus",myfocus,true);
+         x.addEventListener("blur",myblur,true);
+      
+         function myfocus()
+         {
+            document.getElementById("fullname").style.backgroundColor="lightblue";
+            document.getElementById("reset").style.backgroundColor="lightblue";
+            document.getElementById("email").style.backgroundColor="lightblue";
+            document.getElementById("password").style.backgroundColor="lightblue";
+         }
+      
+         function myblur()
+         {
+            document.getElementById("fullname").style.backgroundColor="";
+            document.getElementById("reset").style.backgroundColor="";
+            document.getElementById("email").style.backgroundColor="";
+            document.getElementById("password").style.backgroundColor="";
+         } 
+         
+         function myfunction()
+         {
+            const repassword=document.getElementById("reset").value;
+            const password=document.getElementById("password").value;
+             if(password != repassword)
+             {
+               alert("incorrect password");
+               return;
+             }
+             
+         }
+   }
+</script>
+
+   
+ 
+        </body>
+   
+</html>
+
+
+
+
+
+
+
+

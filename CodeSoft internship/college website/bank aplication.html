@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Bank Account</title>
+
+    <style>
+        body{
+            background-color: silver;
+        }
+
+        .clearfix
+             {
+               overflow:auto;
+             }
+             .address
+             {
+               text-align:right;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .flex-container
+             {
+                display:flex;
+                background-color: rgb(116, 4, 4);
+            }
+            .flex-container > div
+            {
+                background-color:rgb(29, 46, 133);
+                width:350px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                padding:10px 45px;
+            }
+            .img1
+            {
+              float:left;
+            }
+            .shade
+            {
+            text-shadow: 4px 2px 2px black;
+            }
+    </style>
+</head>
+<body>
+        
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="clearfix">
+        <img class="img1" src="triangle.jpg" width="100px" height="100px" alt="image"><b class="shade" style="font-size:45px">ACME GLOBAL</b><br>
+        investment company</div><p class="address"><b>ACME GLOBAL</b><br>
+           123 Maple Street Anytown,<br>PA 17101<br>
+           info@example.com<br>
+           www.example.com<br>
+           (123) 1234567<br>
+           <div class="flex-container">
+               <div><a href="about"><i style="color:white;">About</i></a></div>
+               <div><a href="Template"><i style="color:white;">Template</i></a></div>
+               <div><a href="Support"><i style="color:white;">Support</i></a></div>
+               <div><a href="Enterprise"><i style="color:white;">Enterprise</i></a></div>
+               <div><a href="Pricing"><i style="color:white;">Pricing</i></a></div>
+               <div><a href="css form.html"><i style="color:white"><u class="log"> LOGIN </u></i></a></div>
+           </div><br><br>
+
+           <h2>Banking Application Forms</h2>
+            
+           <p>Whether your clients are looking to open an account, close an account, 
+               or apply for a debit or credit card, remove unnecessary paperwork from 
+               your workflow by taking your bank applications online with a free Banking Application Form. 
+               Simply choose a template below to get started, customize it for a personalized look, and embed
+                it in your bank or financial institution’s website to more efficiently process banking applications online.
+                 It’s a simple way to streamline your application process, save time and paperwork, and encourage more applications — all at once.
+               
+               Believe it or not, you can create a custom form for your financial institution without breaking the bank — our Form 
+               Builder is not only easy to use, it’s free to use too! Our banking application forms already look great, but you’re 
+               welcome to change the background image, add your logo, and integrate with third-party applications for a better look 
+               and function. Why not link your form to Google Sheets to keep a detailed record of all applications? Or integrate with 
+               a CRM system like HubSpot or Salesforce (also available on Salesforce AppExchange) to automatically create a new contact
+               for each application? By taking your bank applications online with a free Banking Application Form template, your 
+               financial institution can save time and money while instantly boosting its efficiency.</p>
+   
+    
+    <div class="container">
+        <h1>Bank Account Registration</h1>
+        <form id="registration-form"><fieldset>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirm-password" placeholder="Confirm Password">
+            <button type="submit">Register</button>
+        </form></fieldset>
+        
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password">
+            <button type="submit" onclick="login()">Log In</button>
+        </div>
+
+        <div id="dashboard" style="display: none;">
+            <h2>Welcome, <span id="user-display"></span>!</h2>
+            <div>
+                <select id="dropdown-menu">
+                    <option value="account">Account</option>
+                    <option value="transactions">Transactions</option>
+                    <option value="settings">Settings</option>
+                </select>
+                <button onclick="navigateDashboard()">Go</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
